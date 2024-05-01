@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
      <head>
-        <title>test</title>
+        <title>{% block title %} {% endblock %}</title>
      </head>
      <body>
-        <h1>My website</h1>
+        <h1>My WebSite</h1>
         {% for x in content %}
            <p>{{x}}</p>
         {% endfor %}
